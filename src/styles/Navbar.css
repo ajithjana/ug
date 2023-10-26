@@ -1,0 +1,209 @@
+/* .navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #121619;
+    display: flex;
+    flex-direction: row;
+    border-bottom: white 300px;
+  }
+  
+  .navbar .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left:1%;
+  }
+  
+  .navbar .leftSide img {
+    width: 70px;
+    border-radius: 30px;
+    margin-left: 0px;
+  }
+  
+  .navbar .rightSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbtn{
+    background-color: red;
+    padding:5px;
+    border: 1px solid black;
+    width: 6rem ;
+    height:2.1rem;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size:22px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  .navbar .rightSide button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .navbar .rightSide #home:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    height: 30px;
+    width:  80px
+  }
+  .navbar .rightSide #Games:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    height: 30px;
+    width:  80px
+  }
+  .navbar .rightSide #About:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    height: 30px;
+    width:  80px
+  }
+  .navbar .rightSide #Contact:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    height: 30px;
+    width:  80px
+  }
+
+  .navbar-btn{
+    padding:10px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    border:none;
+    border-radius:12px;
+  }
+
+  .navbar-btn:hover{
+    background-color: rgb(255, 30, 30);
+
+  }
+
+  
+  .navbar .rightSide svg {
+    font-size: 40px;
+  }
+  
+  .navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open img {
+    display: none;
+  }
+  
+  .navbar #close img {
+    display: inherit;
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }
+  @media only screen and (max-width: 900px) {
+    .navbar .rightSide a {
+      width: 70px;
+    }
+    .navbar .leftSide {
+      padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar .rightSide a {
+      display: none;
+    }
+  
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .rightSide button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .navbar .rightSide button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  }
+   */
+
+.navbar{
+  font-size:20px;
+}
+
+.logo{
+  width:100px;
+  height:100px;
+}
+
+.navbar-brand{
+  color:white;
+}
+
+.navbar-brand:hover{
+  color:white;
+}
+
+.nav-sub-link{
+  color:white;
+  text-decoration: none;
+  padding:0px 10px;
+}
+.nav-sub-link:hover{
+  color:red;
+}
+
+.login-btn{
+  padding:5px 15px;
+  border:none;
+  border-radius:5px;
+  transition: 0.3s;
+  background-color: red;
+}
+
+
+
+.login-btn:hover{
+  background-color: rgb(252, 41, 41);
+  color:white;  
+  cursor: pointer;
+  transform:translateY(-15px);
+}
